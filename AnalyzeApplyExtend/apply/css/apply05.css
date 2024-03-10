@@ -1,4 +1,9 @@
 /* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+/*
+Student Name: Mariana Salinas
+File Name:Apply05.css
+Date: 03/04/24
+*/
 
 /* CSS Reset */
 body, header, nav, main, footer, h1, div, img, ul {
@@ -7,57 +12,85 @@ body, header, nav, main, footer, h1, div, img, ul {
     border: 0;
 }
 
-/* Style rule for body and images */
-body {
-	background-color: #e4f1f6;
+    /* Style rule for body and images */
+
+    body {
+    background-color: #e4f1f6;
 }
 
-/* Style rule for header */
-header {
-	font-family: Verdana, Arial, sans-serif;
-	text-align: center;
+    /* Style rule for header */
+
+    header {
+    font-family: Verdana, Arial, sans-serif;
+    text-align: center;
     padding: 3%;
     color: #092834;
     margin-top: 5%;
 }
 
-/* Style rules for nav */
-nav {
+    /* Style rules for nav */
+
+    nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
 	padding: 1%;
     margin-bottom: 1%;
     background-color: #67afcb;
 }
 
-nav ul {
+    nav ul {
     text-align: center;
+    list-style-type: none;
 }
 
-nav li {
+    nav li {
+    font-family: 'B612';
     font-size: 1.5em;
     padding: 4%;
+    display: inline-block;
 }
 
-nav li a {
+    nav li a {
     display: block;
     color: #092834;
     text-decoration: none;
 }
 
-/* Style rules for main content  */
-main {
-	display: block;
-	margin: 1% 1% 15%;
-	padding: 1%;
+/* Style rules for main content */
+
+    main {
+    display: block;
+    margin: 1% 1% 15%;
+    padding: 1%;
     font-size: 1.5em;
 }
 
-#image {
+    .corner {
+    border-radius: 12px;
+}
+
+    img {
+    max-width: 100%;
+    display: block;
+}
+
+/*Style rules for mobile viewport.*/
+
+/* Style rule to hide tablet-desk class*/
+
+    .tablet-desk{
+    display: none;
+ }
+
+    #image {
     margin-bottom: 1%;
 }
 
-/* Style rule for footer */
-footer {
-	font-size: .70em;
-	text-align: center;
-	margin-top: 2em;
+    /* Style rule for footer */
+    footer {
+    font-size: .70em;
+    text-align: center;
+    margin-top: 2em;
 }
+    
